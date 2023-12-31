@@ -1,0 +1,109 @@
+ /* Center the image */
+ .centre {
+    
+    width: 20em;
+    height: 20em;
+    border-radius: 49%;
+    overflow: hidden;
+    
+    display:inline-block;
+    
+    margin-top: 1ch;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+    
+    
+}
+
+.centreDiv{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url("pride.png");
+    
+    
+
+}
+
+
+body {
+    background: rgb(2,0,36);
+background: -moz-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,61,121,1) 50%, rgba(0,212,255,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,61,121,1) 50%, rgba(0,212,255,1) 100%);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,61,121,1) 50%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+
+
+.overlay{
+    
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.MainText {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 5%;
+    background-color: inherit;   
+    font-family:"Lobster";
+    
+}
+
+.subText {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 1%;
+    background-color: inherit;   
+    font-family:"Lobster";
+    
+}
+
+.flex {
+    
+    
+    
+    
+    
+    margin-top: 1ch;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    background: rgb(0, 0, 0);
+
+    z-index: 2;
+    position: relative;
+
+
+}
+
+.button{
+    background-color: #ff55b2; /* pink */
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    
+    text-align: center;
+    
+    
+    font-size: 1.5em;
+    margin: 0.5em 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
